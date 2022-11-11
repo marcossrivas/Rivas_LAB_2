@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_A/circuito1.vhd
+source_file = 1, C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_A/circuito1_testbench.vhd
+source_file = 1, C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_A/Waveform.vwf
+source_file = 1, C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_A/ParteA_sch.bdf
+source_file = 1, C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_A/db/ParteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = circuito1
+instance = comp, \LED~output , LED~output, circuito1, 1
+instance = comp, \SW2~input , SW2~input, circuito1, 1
+instance = comp, \SW1~input , SW1~input, circuito1, 1
+instance = comp, \LED~0 , LED~0, circuito1, 1
