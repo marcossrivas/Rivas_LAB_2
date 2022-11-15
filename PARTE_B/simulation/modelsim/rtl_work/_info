@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marco\Desktop\Rivas_LAB_2\PARTE_B\simulation\modelsim
+Eadder_test
+Z1 w1668524951
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\marco\Desktop\Rivas_LAB_2\PARTE_B\simulation\modelsim
+Z5 8C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd
+Z6 FC:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd
+l0
+L4
+VOOzMcKGTZjSZE1@C?Sk5B1
+!s100 cKzAheazAz35?[`^7^3Yo2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1668525381.735000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd|
+Z10 !s107 C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavior
+R2
+R3
+DEx4 work 10 adder_test 0 22 OOzMcKGTZjSZE1@C?Sk5B1
+l38
+L7
+VcU2A6=eGLQ:bNO>KNVBD`0
+!s100 ;k:eH^zk9<Lzj0eLB`9LB0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Effd
+Z13 w1668212299
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z16 8C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FFD.vhd
+Z17 FC:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FFD.vhd
+l0
+L6
+Vg2_H]OD=S^G2iLnkfeaF]3
+R7
+31
+Z18 !s108 1668525381.309000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FFD.vhd|
+Z20 !s107 C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FFD.vhd|
+R11
+R12
+!s100 B>7i50fYhF64GnBVYgcd73
+!i10b 1
+Abehavioral
+R14
+R15
+R2
+R3
+DEx4 work 3 ffd 0 22 g2_H]OD=S^G2iLnkfeaF]3
+l12
+L11
+Vc9GDaW=MhnmDVFMANB@TR1
+R7
+31
+R18
+R19
+R20
+R11
+R12
+!s100 f^BHf;5`Bh`=_2:XNd^:02
+!i10b 1
+Efull_adder
+R13
+R2
+R3
+R4
+Z21 8C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FULL_ADDER.vhd
+Z22 FC:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FULL_ADDER.vhd
+l0
+L4
+V;72oGI@P?G[W@PPb7cC_I0
+R7
+31
+Z23 !s108 1668525381.528000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FULL_ADDER.vhd|
+Z25 !s107 C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FULL_ADDER.vhd|
+R11
+R12
+!s100 gPZAFZ^lG78<cCX<Ch27J1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 10 full_adder 0 22 ;72oGI@P?G[W@PPb7cC_I0
+l25
+L15
+VUJYRZ:WzFj^6GH>OjH6_42
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 7:0Sge[gF6`iiF2CehFaN0
+!i10b 1

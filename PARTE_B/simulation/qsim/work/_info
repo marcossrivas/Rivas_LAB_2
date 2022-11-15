@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marco\Desktop\Rivas_LAB_2\PARTE_B\simulation\qsim
+vFULL_ADDER
+Z1 !s100 OfcPJ_;:H^kTNPACZ0cSG2
+Z2 IUkBzejoOM?7G>MWW4ZZn<3
+Z3 V98e]4[f:aE5JdJJcoK9=Y2
+Z4 dC:\Users\marco\Desktop\Rivas_LAB_2\PARTE_B\simulation\qsim
+Z5 w1668521776
+Z6 8PARTE_B.vo
+Z7 FPARTE_B.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|PARTE_B.vo|
+Z10 o-work work -O0
+Z11 n@f@u@l@l_@a@d@d@e@r
+!i10b 1
+!s85 0
+Z12 !s108 1668521778.474000
+Z13 !s107 PARTE_B.vo|
+!s101 -O0
+vFULL_ADDER_vlg_check_tst
+!i10b 1
+Z14 !s100 bzlWKlX?laZCC^l^L7QL^2
+Z15 ID9H=D1>TYkfb2FLZVZY<;2
+Z16 VJ_AAPUQZ[Lzl>7CoH8_Bn2
+R4
+Z17 w1668521773
+Z18 8PARTE_B.vt
+Z19 FPARTE_B.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1668521778.645000
+Z21 !s107 PARTE_B.vt|
+Z22 !s90 -work|work|PARTE_B.vt|
+!s101 -O0
+R10
+Z23 n@f@u@l@l_@a@d@d@e@r_vlg_check_tst
+vFULL_ADDER_vlg_sample_tst
+!i10b 1
+Z24 !s100 c:;8GH=GQTK60;@1b:aeU2
+Z25 I[;M_l;<Gn3909ghiil2>D1
+Z26 V23@omz?B`SIj^f]dG`M5_3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@f@u@l@l_@a@d@d@e@r_vlg_sample_tst
+vFULL_ADDER_vlg_vec_tst
+!i10b 1
+!s100 GEDnNBO=S[:eYR57A[>Dg2
+IaK7BY53<R:^?Ie1S1QLYX0
+Z28 V]Ez5l=icEgLkfIbDbhLTo2
+R4
+R17
+R18
+R19
+Z29 L0 185
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@f@u@l@l_@a@d@d@e@r_vlg_vec_tst

@@ -1,0 +1,65 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do PARTE_B_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FFD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FFD
+# -- Compiling architecture behavioral of FFD
+# vcom -93 -work work {C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/FULL_ADDER.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FULL_ADDER
+# -- Compiling architecture behavioral of FULL_ADDER
+# 
+# vcom -93 -work work {C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder_test
+# -- Compiling architecture behavior of adder_test
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  adder_test
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps adder_test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.adder_test(behavior)
+# Loading work.full_adder(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ffd(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Break in Process clock_process at C:/Users/marco/Desktop/Rivas_LAB_2/PARTE_B/adder_test.vhd line 58
