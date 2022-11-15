@@ -1,0 +1,195 @@
+|PARTE_C
+pin_name8 <= FFD:inst26.Q
+A0 => FFD:inst14.D
+B0 => FFD:inst21.D
+CLK => FFD:inst21.CLOCK
+CLK => FULL_ADDER:inst5.clk
+CLK => FFD:inst19.CLOCK
+CLK => FFD:inst20.CLOCK
+CLK => FULL_ADDER:inst6.clk
+CLK => FULL_ADDER:inst7.clk
+CLK => FFD:inst18.CLOCK
+CLK => FULL_ADDER:inst9.clk
+CLK => FFD:inst26.CLOCK
+CLK => FFD:inst22.CLOCK
+CLK => FFD:inst23.CLOCK
+CLK => FFD:inst24.CLOCK
+CLK => FFD:inst25.CLOCK
+CLK => FFD:inst29.CLOCK
+CLK => FFD:inst27.CLOCK
+CLK => FFD:inst28.CLOCK
+SUM_RES => inst12.IN1
+SUM_RES => FULL_ADDER:inst5.cin
+SUM_RES => inst10.IN1
+SUM_RES => inst11.IN1
+SUM_RES => inst99.IN1
+SUM_RES => inst8.IN0
+A2 => FFD:inst16.D
+B2 => FFD:inst19.D
+A1 => FFD:inst15.D
+B1 => FFD:inst20.D
+A3 => FFD:inst17.D
+B3 => FFD:inst18.D
+S3 <= FFD:inst22.Q
+S2 <= FFD:inst23.Q
+S1 <= FFD:inst24.Q
+S0 <= FFD:inst25.Q
+C <= FFD:inst29.Q
+V <= <GND>
+S <= FFD:inst27.Q
+
+
+|PARTE_C|FFD:inst26
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FULL_ADDER:inst5
+a => z.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+cin => z.IN1
+cin => cout.IN1
+clk => ~NO_FANOUT~
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst14
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst21
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FULL_ADDER:inst7
+a => z.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+cin => z.IN1
+cin => cout.IN1
+clk => ~NO_FANOUT~
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst16
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst19
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FULL_ADDER:inst6
+a => z.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+cin => z.IN1
+cin => cout.IN1
+clk => ~NO_FANOUT~
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst15
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst20
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FULL_ADDER:inst9
+a => z.IN0
+a => cout.IN0
+b => z.IN1
+b => cout.IN1
+cin => z.IN1
+cin => cout.IN1
+clk => ~NO_FANOUT~
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst17
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst18
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst22
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst23
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst24
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst25
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst29
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst27
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|FFD:inst28
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PARTE_C|V_FLAG:inst33
+a3 => v.IN0
+a3 => v.IN0
+b3 => v.IN1
+b3 => v.IN1
+s3 => v.IN1
+s3 => v.IN1
+v <= v.DB_MAX_OUTPUT_PORT_TYPE
+
+

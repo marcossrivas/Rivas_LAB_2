@@ -1,0 +1,1 @@
+seguir con parte d. De la parte c, falta simular bien con el modelsim
