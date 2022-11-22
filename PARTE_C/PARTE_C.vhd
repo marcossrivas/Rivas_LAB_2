@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus II 64-Bit"
 -- VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
--- CREATED		"Tue Nov 15 19:34:35 2022"
+-- CREATED		"Sun Nov 20 18:38:04 2022"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -112,21 +112,25 @@ SYNTHESIZED_WIRE_19 <= SYNTHESIZED_WIRE_2 XOR SUM_RES;
 
 b2v_inst14 : ffd
 PORT MAP(D => A0,
+		 CLOCK => CLK,
 		 Q => SYNTHESIZED_WIRE_18);
 
 
 b2v_inst15 : ffd
 PORT MAP(D => A1,
+		 CLOCK => CLK,
 		 Q => SYNTHESIZED_WIRE_20);
 
 
 b2v_inst16 : ffd
 PORT MAP(D => A2,
+		 CLOCK => CLK,
 		 Q => SYNTHESIZED_WIRE_23);
 
 
 b2v_inst17 : ffd
 PORT MAP(D => A3,
+		 CLOCK => CLK,
 		 Q => SYNTHESIZED_WIRE_35);
 
 

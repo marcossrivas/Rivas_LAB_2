@@ -1,13 +1,16 @@
 |PARTE_C
 pin_name8 <= FFD:inst26.Q
 A0 => FFD:inst14.D
-B0 => FFD:inst21.D
+CLK => FFD:inst14.CLOCK
 CLK => FFD:inst21.CLOCK
 CLK => FULL_ADDER:inst5.clk
+CLK => FFD:inst16.CLOCK
 CLK => FFD:inst19.CLOCK
+CLK => FFD:inst15.CLOCK
 CLK => FFD:inst20.CLOCK
 CLK => FULL_ADDER:inst6.clk
 CLK => FULL_ADDER:inst7.clk
+CLK => FFD:inst17.CLOCK
 CLK => FFD:inst18.CLOCK
 CLK => FULL_ADDER:inst9.clk
 CLK => FFD:inst26.CLOCK
@@ -18,6 +21,7 @@ CLK => FFD:inst25.CLOCK
 CLK => FFD:inst29.CLOCK
 CLK => FFD:inst27.CLOCK
 CLK => FFD:inst28.CLOCK
+B0 => FFD:inst21.D
 SUM_RES => inst12.IN1
 SUM_RES => FULL_ADDER:inst5.cin
 SUM_RES => inst10.IN1
